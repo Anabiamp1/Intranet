@@ -1,0 +1,72 @@
+/* CONTAINER PRINCIPAL DO MAIN */
+.container {
+  display: flex;
+  align-items: center;        /* imagem e calendário alinhados */
+  justify-content: flex-start;
+  gap: 40px;                  /* espaço entre a imagem e o calendário */
+  padding: 40px;              /* substitui o margin-top quebrado */
+  margin-top: 40px;           /* se quiser manter */
+}
+
+/* IMAGEM */
+.julia {
+  width: 15%;
+  height: auto;
+  border-radius: 50%;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+/* CALENDÁRIO */
+.calendar {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  width: 280px;
+}
+
+.calendarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendarWeekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.calendarDays {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+.day {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.day:hover {
+  background: #eee;
+}
+
+.today {
+  background: #cc092f;
+  color: #fff;
+  font-weight: bold;
+}
+
+.selected {
+  background: #ffdde4;
+  color: #cc092f;
+  font-weight: bold;
+}
