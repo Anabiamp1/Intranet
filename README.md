@@ -44,7 +44,7 @@ Também tenho familiaridade com:
 ---
 # ⭐ Link Figma
 
-  https://www.figma.com/design/diP7nNrPoa5rkNqwdcskdB/Intranet?node-id=0-1&m=dev&t=y8oXz9PZawi6xTKi-1
+[  https://www.figma.com/design/diP7nNrPoa5rkNqwdcskdB/Intranet?node-id=0-1&m=dev&t=y8oXz9PZawi6xTKi-1](https://www.figma.com/proto/diP7nNrPoa5rkNqwdcskdB/Intranet?node-id=0-1&t=3hX2lDiQlsagYDDf-1)
 
 ---
 
