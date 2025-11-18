@@ -1,29 +1,33 @@
 /* CONTAINER PRINCIPAL DO MAIN */
 .container {
   display: flex;
-  align-items: center;        /* imagem e calendário alinhados */
+  align-items: flex-start;
   justify-content: flex-start;
-  gap: 40px;                  /* espaço entre a imagem e o calendário */
-  padding: 40px;              /* substitui o margin-top quebrado */
-  margin-top: 40px;           /* se quiser manter */
+  gap: 10px;  
+  padding: 40px;  
+  margin-top: 15px; 
+   padding-top: 90px;    
 }
 
 /* IMAGEM */
 .julia {
-  width: 15%;
+  width: 30%;
   height: auto;
   border-radius: 50%;
   margin-left: 250px;
-  margin-top: 50px;
+  margin-top: 15px;
 }
 
 /* CALENDÁRIO */
 .calendar {
   background: #fff;
-  padding: 20px;
+  padding: 15px;
   border-radius: 12px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-  width: 280px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  width: 300px;      
+  height: auto;
+  overflow: hidden; 
+  margin-bottom: 10px;
 }
 
 .calendarHeader {
@@ -44,11 +48,10 @@
   margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 6px;
+  gap: 3px;
 }
 
 .day {
-  padding: 10px;
   text-align: center;
   cursor: pointer;
   border-radius: 6px;
@@ -56,7 +59,7 @@
 }
 
 .day:hover {
-  background: #eee;
+  background: #633280;
 }
 
 .today {
@@ -69,4 +72,53 @@
   background: #ffdde4;
   color: #cc092f;
   font-weight: bold;
+}
+
+.agenda {
+  display: inline;
+  align-items: center;
+  padding: 2px;
+}
+
+/* TELAS MÉDIAS */
+@media (max-width: 900px) {
+  .logo {
+    margin-left: 0;
+    width: 70px;
+  }
+
+  .inputWrapper {
+    margin-left: 20px;
+  }
+
+  .search {
+    width: 220px;
+  }
+}
+
+/* TELAS PEQUENAS (CELULAR) */
+@media (max-width: 600px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .inputWrapper {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .rightIcons {
+    margin-left: 0;
+  }
+
+  .menuPanel {
+    right: 10px !important;
+  }
 }

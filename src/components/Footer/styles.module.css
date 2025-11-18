@@ -1,0 +1,25 @@
+.container {
+  background-color: #CC092F;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.linkutil {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: inline-block;
+}
+
+.linkutil:hover {
+  text-decoration: underline;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+  .linkutil {
+    display: block;
+    padding: 10px 0;
+  }
+}

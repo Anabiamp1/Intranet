@@ -34,7 +34,6 @@ export function Header() {
             <img src="/src/assets/menu.svg" alt="Menu" />
           </button>
 
-          {/* Painel do menu */}
           <div className={`${styles.menuPanel} ${menuOpen ? styles.active : ""}`}>
             <a href="#">Minha Conta</a>
             <a href="#">Chat Equipe</a>
@@ -46,7 +45,6 @@ export function Header() {
         </div>
       </div>
 
-      {/* Overlay */}
       <div
         className={`${styles.menuOverlay} ${menuOpen ? styles.active : ""}`}
         onClick={toggleMenu}

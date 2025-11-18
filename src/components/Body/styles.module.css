@@ -1,0 +1,110 @@
+.container {
+  background-color: rgb(206,9,48);
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 15%;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.infoSection,
+.DocsSection {
+  margin: 40px 15%;
+}
+
+
+.item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.image, .treino {
+  width: 160px;
+  border-radius: 10px;
+}
+
+.text h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.text p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* Linha separadora */
+.separator {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+.treino {
+  margin-bottom: -50px;
+}
+
+.bot1 {
+  width: 100px;
+  margin-left: 180px;
+}
+
+
+.groupsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 15%;
+}
+
+.grupo4,
+.grupo6 {
+  width: 30rem;
+  height: auto;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .container,
+  .infoSection,
+  .DocsSection,
+  .groupsContainer {
+    margin: 40px 10%;
+  }
+}
+
+@media (max-width: 700px) {
+  .item {
+    flex-direction: column;
+  }
+
+  .image, .treino, .bot1 {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .groupsContainer {
+    flex-direction: column;
+  }
+
+  .text h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    margin: 20px 5%;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}

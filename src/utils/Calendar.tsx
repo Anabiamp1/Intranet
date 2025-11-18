@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "../Main/styles.module.css";
+import styles from "../components/Main/styles.module.css";
 
 export function Calendar() {
   const today = new Date();
