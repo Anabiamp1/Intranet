@@ -24,7 +24,7 @@ Também tenho familiaridade com:
 - 🖥️ **Design responsivo**  
 - 🎨 **Estilo moderno** com cores contrastantes e fontes personalizadas de acordo com determinados Bancos 
 - 🔗 **Links**  
-- 🏠 **Input de Pesquisa**: Home, Sobre mim, Certificados & Artigos, Contato  
+- 🏠 **Input de Pesquisa**  
 - 🖼️ **Imagem com bordas estilizadas**  
 - 📂 **Menu Hamburguer Funcional** com opções disponíveis 
 
