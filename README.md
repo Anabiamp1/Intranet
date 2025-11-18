@@ -39,7 +39,12 @@ Também tenho familiaridade com:
 - Figma
 - Node
 - Media Queries para responsividade  
-- Organização semântica e boas práticas de estruturação  
+- Organização semântica e boas práticas de estruturação
+
+---
+# ⭐ Link Figma
+
+  https://www.figma.com/design/diP7nNrPoa5rkNqwdcskdB/Intranet?node-id=0-1&m=dev&t=y8oXz9PZawi6xTKi-1
 
 ---
 
