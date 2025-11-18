@@ -8,7 +8,7 @@ Este é um projeto desenvolvido com **HTML**, **CSS**, **Javascript**, **Typescr
 
 ------
 # 👩‍💻 Sobre Mim
-Sou **Ana Beatriz **, estudante de **Análise e Desenvolvimento de Sistemas** na Universidade Anhembi Morumbi e formada em **Psicologia** pela Unip. Tenho conhecimentos em desenvolvimento web com **HTML, CSS eJavaScript**.
+Sou **Ana Beatriz**, estudante de **Análise e Desenvolvimento de Sistemas** na Universidade Anhembi Morumbi e formada em **Psicologia** pela Unip. Tenho conhecimentos em desenvolvimento web com **HTML, CSS eJavaScript**.
 
 Também tenho familiaridade com:  
 - 📊 **Node.js**
